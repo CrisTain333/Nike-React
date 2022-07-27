@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header .ss .btn{
+    background-color: #3D4FF3;
+}
+header .ss .btn:hover{
+    background-color: #0e1da3;
+}
+header nav .djs{
+    background-color: #FA804C;
+}
+header{
+    background-color: #FFF9F4;
+}
+header .fw-bold{
+    color:#FA804C;
+    font-family: Roboto;
+}
+header .sds{
+    color:
+    #363958;
+}
+main h2{
+    font-family: Roboto;
+    color: #363958;
+}
+main .container .card img{
+    width: 311px;
+height: 311px;
+background: #F1F1F1;
+border-radius: 20px;
+margin-top: 18px;
+}
+main .parent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+main .container .card{
+    /* width: 311px; */
+    border-style: none;
+    border-radius: 20px;
+    /* height: 550px; */
+   box-shadow: 0px 10px 30px 0px #0000000D;  
+    
+}
+main .container .card h5{
+    font-family: Roboto;
+    color: #363958;
+}
+main .container .card p{
+    font-family: Roboto; 
+color:#3E3E3E;
+font-size: 16px;
+}
+#fot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#fot h3{
+    font-family: Roboto;
+    color: #FA804C;
+}
+main .card .btn{
+    font-family: Roboto;
+    background-color: #3D4FF3;
+}
+main .card .btn:hover{
+    background-color: #0e1da3;
+}
+section .abba .pola img{
+    height: 82px;
+}
+section .abba .pola {
+    display: flex;
+ align-items: center;
+    width: 489px;
+height: 135px;
+
+}
+section .abba .pola .rks{
+    font-family: Roboto;
+    color: #363958;
+    line-height: 26px;
+}
+section .abba .xdx{
+    box-shadow: 0px 10px 30px 0px #0000000D;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:576px) {
+ .container .row{
+    display: flex;
+    flex-direction: column-reverse;
+ }   
+ main .parent{
+  grid-template-columns: repeat(1,1fr);
+  grid-row-gap: 30px;
+ }
+ main .card{
+    margin:0px auto;
+ }
+ /* section .row{
+   display: flex;
+   flex-direction: column-reverse;
+ } */
+ section .abba .pola{
+   display: block;
+   height: 100%;
+   width: 100%;
+   align-items: center;
+ }
+ section .abba .pola img{
+    display: flex;
+    margin: 0px auto;
+ }
+ section .abba .pola h3{
+    text-align: center;
+ }
+ section .abba .pola p{
+    text-align: center;
+ }
+ section .xsx{
+    margin-top: 10px;
+ }
+}
